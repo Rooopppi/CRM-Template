@@ -1,0 +1,189 @@
+{
+	"logo": {
+		"title": "Seismic Template"
+	},
+	"sidebar": {
+		"admin": {
+			"title": "Admin",
+			"menu": {
+				"users": {
+					"title": "Users",
+					"icon": "mdi-speedometer"
+				},
+				"groups": {
+					"title": "Groups",
+					"icon": "mdi-layers-triple"
+				},
+				"dataBaseManager": {
+					"title": "Database Manager",
+					"icon": ""
+				}
+			}
+		},
+		"data": {
+			"title": "Data",
+			"menu": {
+				"orders": {
+					"title": "Orders",
+					"icon": "mdi-cellphone-arrow-down"
+				},
+				"tracks": {
+					"title": "Tracks",
+					"icon": "mdi-poll"
+				}
+			}
+		}
+	},
+	"table": {
+		"pageText": "{0}-{1} of {2}",
+		"itemsPerPageText": "Rows per page",
+		"loadingText": "Loading... Please wait",
+		"filters": "Filters",
+		"buttons": {
+			"create": "create",
+			"save": "save",
+			"cancel": "cancel",
+			"ok": "ok"
+		},
+		"user": {
+			"title": "Users",
+			"formTitles": {
+				"formCreateTitle": "New User",
+				"formEditTitle": "Edit User",
+				"formDeleteTitle": "Are you sure you want to delete this User?"
+			},
+			"buttons": {
+				"newField": "New User"
+			},
+			"fields": {
+				"id": "ID",
+				"userName": "User Name",
+				"email": "Email",
+				"active": "Active",
+				"groupName": "Group Name",
+				"lastLoginTime": "Last Login Time",
+				"actions": "Actions",
+				"password": "Password"
+			},
+			"messages": {
+				"formCreateMessage": "Success! User was created!",
+				"formEditMessage": "Success! User was edited!",
+				"formDeleteMessage": "Success! User was deleted!"
+			},
+			"rulesErrors": {
+				"required": "Field is required",
+				"maxNumberOfSymbols": "Max 100 chararcters",
+				"minNumberOfSymbols": "Min 4 characters",
+				"validEmail": "Email must be valid"
+			}
+		},
+		"group": {
+			"title": "Groups",
+			"formTitles": {
+				"formCreateTitle": "New Group",
+				"formEditTitle": "Edit Group",
+				"formDeleteTitle": "Are you sure you want to delete this Group?"
+			},
+			"buttons": {
+				"newField": "New Group"
+			},
+			"fields": {
+				"id": "ID",
+				"groupName": "Group Name",
+				"actions": "Actions"
+			},
+			"messages": {
+				"formCreateMessage": "Success! Group was created!",
+				"formEditMessage": "Success! Group was edited!",
+				"formDeleteMessage": "Success! Group was deleted!"
+			},
+			"rulesErrors": {
+				"required": "Name is required",
+				"maxNumberOfSymbols": "Name must be at most 10 characters long"
+			}
+		},
+		"dataBaseManager": {
+			"title": "Database Manager",
+			"formTitles": {
+				"formCreateTitle": "New Item",
+				"formEditTitle": "Edit Item",
+				"formDeleteTitle": "Are you sure you want to delete this item?"
+			},
+			"buttons": {
+				"newField": "New Item"
+			},
+			"fields": {
+				"id": "ID",
+				"connectionName": "Connection Name",
+				"databaseHost": "Host",
+				"databasePort": "Port",
+				"databaseUser": "User",
+				"databasePassword": "Password",
+				"databaseName": "Database Name",
+				"databaseConnectionLimit": "Connection Limit",
+				"databaseService": "Service",
+				"actions": "Actions"
+			},
+			"messages": {
+				"formCreateMessage": "Success! Database was created!",
+				"formEditMessage": "Success! Database was edited!",
+				"formDeleteMessage": "Success! Database was deleted!"
+			},
+			"rulesErrors": {
+				"required": "Name is required",
+				"maxNumberOfSymbolsByDefault": "Name must be at most 100 characters long",
+				"minNumberOfSymbolsByDefault": "Name must be at least 4 characters long",
+				"maxNumberOfSymbolsForPort": "Name must be at most 5 characters long",
+				"minNumberOfSymbolsForPort": "Name must be at least 2 characters long",
+				"urlFormat": "It isn't url",
+				"onlyNumbers": "Expression should be contained only numbers"
+			}
+		}
+	},
+	"permissions": {
+		"title": "Permissions",
+		"selectPermission": "Select Permission",
+		"components": {
+			"users": "Users",
+			"groups": "Groups"
+		},
+		"permissions": {
+			"create": "Create",
+			"search": "Search",
+			"update": "Update",
+			"remove": "Remove"
+		},
+		"sections": {
+			"admin": "Admin"
+		}
+	},
+	"login": {
+		"title": "Login",
+		"buttons": {
+			"login": "Log in"
+		},
+		"messages": {
+			"wrongEmailOrPassword": "Incorrect login or password"
+		},
+		"fields": {
+			"email": "Email",
+			"password": "Password"
+		},
+		"rulesErrors": {
+			"required": "Field is required",
+			"validEmail": "Email must be valid"
+		}
+	},
+	"contextMenu": {
+		"logout": "Logout",
+		"chooseLanguage": "Choose Language",
+		"modes": {
+			"lightMode": "Light Mode",
+			"darkMode": "Dark Mode"
+		},
+		"languages": {
+			"english": "English",
+			"ukrainian": "Ukrainian"
+		}
+	}
+}

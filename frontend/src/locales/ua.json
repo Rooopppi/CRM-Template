@@ -1,0 +1,189 @@
+{
+	"logo": {
+		"title": "Сейсмік Шаблон"
+	},
+	"sidebar": {
+		"admin": {
+			"title": "Адмін",
+			"menu": {
+				"users": {
+					"title": "Користувачі",
+					"icon": "mdi-speedometer"
+				},
+				"groups": {
+					"title": "Групи",
+					"icon": "mdi-layers-triple"
+				},
+				"dataBaseManager": {
+					"title": "Менеджер баз даних",
+					"icon": ""
+				}
+			}
+		},
+		"data": {
+			"title": "Data",
+			"menu": {
+				"orders": {
+					"title": "Orders",
+					"icon": "mdi-cellphone-arrow-down"
+				},
+				"tracks": {
+					"title": "Tracks",
+					"icon": "mdi-poll"
+				}
+			}
+		}
+	},
+	"table": {
+		"pageText": "{0}-{1} із {2}",
+		"itemsPerPageText": "Рядків на сторінке",
+		"loadingText": "Loading... Please wait",
+		"filters": "Фільтри",
+		"buttons": {
+			"create": "створити",
+			"save": "зберегти",
+			"cancel": "відминити",
+			"ok": "ок"
+		},
+		"user": {
+			"title": "Користувачі",
+			"formTitles": {
+				"formCreateTitle": "Додати Користувача",
+				"formEditTitle": "Редагувати Користувача",
+				"formDeleteTitle": "Ви впевнені, що хочете видалити цього Користувача?"
+			},
+			"buttons": {
+				"newField": "Додати Користувача"
+			},
+			"fields": {
+				"id": "ID",
+				"userName": "Ім'я Користувача",
+				"email": "Імеіл",
+				"active": "Активність",
+				"groupName": "Назва Групи",
+				"lastLoginTime": "Last Login Time",
+				"actions": "Actions",
+				"password": "Password"
+			},
+			"messages": {
+				"formCreateMessage": "Success! User was created!",
+				"formEditMessage": "Success! User was edited!",
+				"formDeleteMessage": "Success! User was deleted!"
+			},
+			"rulesErrors": {
+				"required": "Поле обов'язкове",
+				"maxNumberOfSymbols": "Max 100 chararcters",
+				"minNumberOfSymbols": "Min 4 characters",
+				"validEmail": "Email must be valid"
+			}
+		},
+		"group": {
+			"title": "Групи",
+			"formTitles": {
+				"formCreateTitle": "Нова Група",
+				"formEditTitle": "Edit Group",
+				"formDeleteTitle": "Are you sure you want to delete this Group?"
+			},
+			"buttons": {
+				"newField": "Додати Групу"
+			},
+			"fields": {
+				"id": "ID",
+				"groupName": "Назва Групи",
+				"actions": "Дії"
+			},
+			"messages": {
+				"formCreateMessage": "Success! Group was created!",
+				"formEditMessage": "Success! Group was edited!",
+				"formDeleteMessage": "Success! Group was deleted!"
+			},
+			"rulesErrors": {
+				"required": "Ім'я обов'язкове",
+				"maxNumberOfSymbols": "Name must be at most 10 characters long"
+			}
+		},
+		"dataBaseManager": {
+			"title": "Менеджер баз даних",
+			"formTitles": {
+				"formCreateTitle": "Нове підключення",
+				"formEditTitle": "Редагувати підключення",
+				"formDeleteTitle": "Ви впевнені, що хочете видалити це підключення?"
+			},
+			"buttons": {
+				"newField": "Нове підключення"
+			},
+			"fields": {
+				"id": "ID",
+				"connectionName": "Ім'я з'єднання",
+				"databaseHost": "Хост",
+				"databasePort": "Порт",
+				"databaseUser": "Користувач",
+				"databasePassword": "Пароль",
+				"databaseName": "Ім'я бази даних",
+				"databaseConnectionLimit": "Ліміт підключень",
+				"databaseService": "Коннектор",
+				"actions": "Дії"
+			},
+			"messages": {
+				"formCreateMessage": "Успіх! Підключення створено!",
+				"formEditMessage": "Успіх! Підключення відредаговано",
+				"formDeleteMessage": "Успіх! Підключення видалено!"
+			},
+			"rulesErrors": {
+				"required": "Ім'я обов'язкове",
+				"maxNumberOfSymbolsByDefault": "Назва має містити не більше 100 символів",
+				"minNumberOfSymbolsByDefault": "Ім'я має містити принаймні 4 символи",
+				"maxNumberOfSymbolsForPort": "Назва має містити не більше 5 символів",
+				"minNumberOfSymbolsForPort": "Ім'я має містити принаймні 2 символи",
+				"urlFormat": "Це не url",
+				"onlyNumbers": "Вираз повинен містити тільки числа"
+			}
+		}
+	},
+	"permissions": {
+		"title": "Дозволи",
+		"selectPermission": "Вибрати Дозвіл",
+		"components": {
+			"users": "Users",
+			"groups": "Groups"
+		},
+		"permissions": {
+			"create": "Create",
+			"search": "Search",
+			"update": "Update",
+			"remove": "Remove"
+		},
+		"sections": {
+			"admin": "Admin"
+		}
+	},
+	"login": {
+		"title": "Login",
+		"buttons": {
+			"login": "Log in"
+		},
+		"messages": {
+			"wrongEmailOrPassword": "Incorrect login or password"
+		},
+		"fields": {
+			"email": "Email",
+			"password": "Password"
+		},
+		"rulesErrors": {
+			"required": "Field is required",
+			"validEmail": "Email must be valid"
+		}
+	},
+	"contextMenu": {
+		"logout": "Вийти",
+		"chooseLanguage": "Виберіть мову",
+		"modes": {
+			"lightMode": "Світла Тема",
+			"darkMode": "Темна Тема"
+		},
+		"languages": {
+			"english": "Англійська",
+			"ukrainian": "Українська"
+		}
+	}
+}
